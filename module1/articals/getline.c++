@@ -6,8 +6,17 @@ int main() {
     int t=4;
     while (t--)
     {
+        getline(cin,str); //its read the blank line also
+    
+    //checking the empty condition
+    while (str.empty())
+    {
         getline(cin,str);
+    }
+    
+
         cout<<str<<" : newline"<<endl;
+        t--;
     }
     
     return 0;
