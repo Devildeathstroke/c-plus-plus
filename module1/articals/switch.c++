@@ -1,4 +1,4 @@
-// Q: WA C++ program to returns day based on the numeric value.
+// program to returns day based on the numeric value.
 
 #include<iostream>
 using namespace std;
